@@ -12,11 +12,8 @@ def find_anagram(below, elbow):
     #sort the string
     if(sorted(str1) == sorted(str2)):
         print(sorted(str1), sorted(str2))
-
-    #compare the string
- 
-     
-
-    return False
-    print(find_anagram("below", "elbow"))
-    print(find_anagram("hello", "check"))
+        
+        
+        return True
+print(find_anagram("elbow", "below"))
+print(find_anagram("hello", "check"))
