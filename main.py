@@ -17,15 +17,6 @@ def find_anagram(below, elbow):
  
      
 
-    return True
-print(find_anagram("below", "elbow"))
-
-str3 = input("string: ")
-str4 = input("string: ")
-
-if(sorted(str3) == sorted(str4)):
-    print(sorted(str3), sorted(str4))
-
-
     return False
-print(find_anagram("hello", "check"))
+    print(find_anagram("below", "elbow"))
+    print(find_anagram("hello", "check"))
